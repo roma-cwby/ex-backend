@@ -8,7 +8,6 @@ mongoose
   .connect(DB_HOST)
   .then(() => {
     app.listen(3001);
-    console.log('Connection');
   })
   .catch(error => {
     console.log(error.message);
